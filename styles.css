@@ -1,1 +1,13 @@
+/* CSS file: styles.css */
+
+/* Reset box model */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Other CSS rules for your piano styling */
 
