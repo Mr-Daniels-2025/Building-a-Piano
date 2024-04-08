@@ -64,6 +64,12 @@ html {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1199px) {
-  /* Your CSS rules for this media query */
+@media (max-width: 1199px) and (min-width: 769px) {
+  #piano {
+    width: 675px; /* Setting the width of #piano within the media query */
+  }
+
+  .keys {
+    width: 633px; /* Setting the width of .keys within the media query */
+  }
 }
