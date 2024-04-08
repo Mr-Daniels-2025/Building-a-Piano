@@ -55,7 +55,10 @@ html {
   }
 
   .keys {
-    width: 318px; /* Setting the width of .keys within the media query */
+    width: 318px;
+  }
+
+  .logo {
+    width: 150px; /* Setting the width of .logo within the media query */
   }
 }
-
