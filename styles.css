@@ -50,9 +50,8 @@ html {
 }
 
 @media (max-width: 768px) {
-  /* Add styles for viewport width 768px and below */
-  /* For example: */
-  .card {
-    /* Your styles here */
+  #piano {
+    width: 358px; /* Setting the width of #piano within the media query */
   }
 }
+
