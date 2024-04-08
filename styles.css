@@ -3,7 +3,7 @@ html {
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 #piano {
@@ -11,11 +11,20 @@ html {
   width: 992px;
   height: 290px;
   margin: 80px auto;
+  padding: 90px 20px 0 20px;
 }
 
-#piano {
-    background-color: #00471b;
-    width: 992px;
-    height: 290px;
-    padding: 90px 20px 0 20px; /* top: 90px, right: 20px, bottom: 0, left: 20px */
+.keys {
+  background-color: #040404;
+  width: 949px;
+  height: 180px;
+  padding-left: 2px;
 }
+
+.key {
+  background-color: #ffffff;
+  position: relative;
+  width: 41px;
+  height: 175px;
+}
+
