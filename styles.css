@@ -12,7 +12,8 @@ html {
   height: 290px;
   margin: 80px auto;
   padding: 90px 20px 0 20px;
-  position: relative; /* Adding position property with value relative */
+  position: relative;
+  border-radius: 10px; /* Adding border-radius to smooth the edges */
 }
 
 .keys {
