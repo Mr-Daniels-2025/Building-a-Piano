@@ -63,3 +63,7 @@ html {
     width: 150px; /* Setting the width of .logo within the media query */
   }
 }
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  /* Your CSS rules for this media query */
+}
