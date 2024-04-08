@@ -48,3 +48,11 @@ html {
   position: absolute;
   top: 23px;
 }
+
+@media (max-width: 768px) {
+  /* Add styles for viewport width 768px and below */
+  /* For example: */
+  .card {
+    /* Your styles here */
+  }
+}
