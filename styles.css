@@ -51,7 +51,11 @@ html {
 
 @media (max-width: 768px) {
   #piano {
-    width: 358px; /* Setting the width of #piano within the media query */
+    width: 358px;
+  }
+
+  .keys {
+    width: 318px; /* Setting the width of .keys within the media query */
   }
 }
 
